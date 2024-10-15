@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
           padding: const EdgeInsets.all(16.0),
           child: Column(
             mainAxisAlignment:
-                MainAxisAlignment.center, // Posisikan di tengah layar
+                MainAxisAlignment.center, 
             children: [
-              // Kolom untuk Foto
+           
               Container(
                 width: 150,
                 height: 150,
@@ -29,16 +29,16 @@ class MyApp extends StatelessWidget {
                   shape: BoxShape.circle,
                   image: DecorationImage(
                     image: NetworkImage(
-                      'https://drive.google.com/uc?export=view&id=1lGt4AXyu3CRKlfogDhphPF3w7W_wrTnF', // URL yang telah diubah
+                      'https://drive.google.com/uc?export=view&id=1lGt4AXyu3CRKlfogDhphPF3w7W_wrTnF', 
                     ),
                     fit: BoxFit.cover,
                   ),
                 ),
               ),
               const SizedBox(
-                  height: 20), // Memberikan jarak antara foto dan teks
+                  height: 20), 
 
-              // Kolom untuk Penjelasan
+              
               const Text(
                 'Nama: Hosea Oktarivanes Ferdinan Sinaga\n'
                 'NIM: 17220987\n'
