@@ -5,7 +5,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class MyApp extends StatelessWidget {
               Container(
                 width: 150,
                 height: 150,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   shape: BoxShape.circle,
                   image: DecorationImage(
                     image: NetworkImage(
-                      'https://drive.google.com/file/d/1lGt4AXyu3CRKlfogDhphPF3w7W_wrTnF/view?usp=drive_link', // Ganti dengan URL foto Anda
+                      'https://drive.google.com/uc?export=view&id=1lGt4AXyu3CRKlfogDhphPF3w7W_wrTnF', // URL yang telah diubah
                     ),
                     fit: BoxFit.cover,
                   ),
